@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="responsive">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Calendar-login</title>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.css">
+    <script src="./angular-1.7.9/angular.js"></script>
+    <script src="controller.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="app"  class="responsive" >
+<div ng-controller="controller" class="responsive">
+    <div class="birth_day_body" ng-click="touch()">
+        <div class="birth_day_font">
+            <div class="birth_day_content">
+                <p class="congratulation_font">{{congratulation_now}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

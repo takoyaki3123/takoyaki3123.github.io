@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html.responsive body div{
+    min-height: 100%;
+    position: relative;
+}
+html.responsive {
+    height:100%;
+    width: 100%;
+}
+body.responsive {
+    height:100%;
+    width: 100%;
+    background: cornflowerblue;
+}
+div.responsive {
+    height:100%;
+    width: 100%;
+
+}
+.birth_day_body{
+    height:100%;
+    width: 100%;
+}
+.birth_day_font{
+    height:100%;
+    width: 100%;
+}
+.birth_day_content{
+    min-height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.congratulation_font{
+    opacity: 1;
+    text-align: center;
+    letter-spacing: -10px;
+    font-weight: 300;
+    white-space: pre;
+}
+@-webkit-keyframes animeleave{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes anime{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
